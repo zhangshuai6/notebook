@@ -10,6 +10,7 @@ git add -A  表示的是将所有的文件都添加到仓库中去，即所有�
 
 2.提交  ---将暂存区的内容提交到仓库区,-m 为备注信息
 git commit -m "提交文件"  
+git commit -am "updata"
 
 3.推送  ---将仓库区的内容推送到远程仓库上
 git push origin master
