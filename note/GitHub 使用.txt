@@ -1,0 +1,18 @@
+1.GitHub 使用教程
+https://blog.csdn.net/qq_41782425/article/details/85183250
+
+
+1.添加文件或目录  ---将工作区创建的文件添加到暂存区
+git add  文件名
+git add  目录名/
+
+git add -A  表示的是将所有的文件都添加到仓库中去，即所有的文件都被追踪
+
+2.提交  ---将暂存区的内容提交到仓库区,-m 为备注信息
+git commit -m "提交文件"  
+
+3.推送  ---将仓库区的内容推送到远程仓库上
+git push origin master
+
+4.clone 代码
+git clone https://github.com/zhangshuai6/Albert.git
