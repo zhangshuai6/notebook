@@ -16,3 +16,6 @@ git push origin master
 
 4.clone 代码
 git clone https://github.com/zhangshuai6/Albert.git
+
+5.更新代码
+git pull --rebase origin master
